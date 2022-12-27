@@ -1,5 +1,5 @@
 [My Computer]
-My Computer = "155.210.60.21"
+My Computer = "192.168.1.112"
 
 [NI-cRIO9074-PEPA]
 NI-cRIO9074-PEPA = "192.168.0.111"
