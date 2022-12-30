@@ -60,6 +60,7 @@
 		<Item Name="MAIN_cRIO_ZNB_AMI.vi" Type="VI" URL="../MAIN_cRIO_ZNB_AMI.vi"/>
 		<Item Name="RohdeSchwarz ZNB ReadSpectrum.vi" Type="VI" URL="../RohdeSchwarz ZNB ReadSpectrum.vi"/>
 		<Item Name="TEST_cRIO.vi" Type="VI" URL="../TEST_cRIO.vi"/>
+		<Item Name="TestColores.vi" Type="VI" URL="../TestColores.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent ENA Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent ENA Series/Agilent ENA Series.lvlib"/>
@@ -147,11 +148,12 @@
 			<Item Name="430_TCP_Open.vi" Type="VI" URL="../AMI MAGNET/AMI 430 Power Supply Programer Drivers/AMI/Common VIs/430_TCP_Open.vi"/>
 			<Item Name="430_TCP_Query.vi" Type="VI" URL="../AMI MAGNET/AMI 430 Power Supply Programer Drivers/AMI/Common VIs/430_TCP_Query.vi"/>
 			<Item Name="ALONE_3AXIS_AMI.ctl" Type="VI" URL="../ALONE_3AXIS_AMI.ctl"/>
+			<Item Name="ALONE_3AXIS_V_AMI_DESIM.vi" Type="VI" URL="../ALONE_3AXIS_V_AMI_DESIM.vi"/>
 			<Item Name="AMI 430_Hardware_Module.ctl" Type="VI" URL="../AMI MAGNET/AMI 430_Hardware_Module.ctl"/>
 			<Item Name="AMI 430_Hardware_Module_X AXIS.vi" Type="VI" URL="../AMI MAGNET/AMI 430_Hardware_Module_X AXIS.vi"/>
 			<Item Name="AMI 430_Hardware_Module_Y AXIS.vi" Type="VI" URL="../AMI MAGNET/AMI 430_Hardware_Module_Y AXIS.vi"/>
 			<Item Name="AMI 430_Hardware_Module_Z AXIS.vi" Type="VI" URL="../AMI MAGNET/AMI 430_Hardware_Module_Z AXIS.vi"/>
-			<Item Name="AMI_CREA_SECUENCIA_REPITE.vi" Type="VI" URL="../SECUENCIAS/AMI_CREA_SECUENCIA_REPITE.vi"/>
+			<Item Name="AMI_CREA_SECUENCIA_REPITE_NSCAN.vi" Type="VI" URL="../SECUENCIAS/AMI_CREA_SECUENCIA_REPITE_NSCAN.vi"/>
 			<Item Name="AMI_Desimana X axis.vi" Type="VI" URL="../SECUENCIAS/AMI_Desimana X axis.vi"/>
 			<Item Name="AMI_Desimana Y axis.vi" Type="VI" URL="../SECUENCIAS/AMI_Desimana Y axis.vi"/>
 			<Item Name="AMI_Desimana Z axis.vi" Type="VI" URL="../SECUENCIAS/AMI_Desimana Z axis.vi"/>
@@ -174,6 +176,7 @@
 			<Item Name="AMI_String_Field X.vi" Type="VI" URL="../SECUENCIAS/AMI_String_Field X.vi"/>
 			<Item Name="AMI_String_Field Y.vi" Type="VI" URL="../SECUENCIAS/AMI_String_Field Y.vi"/>
 			<Item Name="AMI_String_Field Z.vi" Type="VI" URL="../SECUENCIAS/AMI_String_Field Z.vi"/>
+			<Item Name="CALCULA_Indices.vi" Type="VI" URL="../SECUENCIAS/CALCULA_Indices.vi"/>
 			<Item Name="commsControl.ctl" Type="VI" URL="../AMI MAGNET/commsControl.ctl"/>
 			<Item Name="cRIO_ZNB_AMI_FINALIZAR.vi" Type="VI" URL="../cRIO_ZNB_AMI_FINALIZAR.vi"/>
 			<Item Name="cRIO_ZNB_AMI_INICIALIZAR.vi" Type="VI" URL="../cRIO_ZNB_AMI_INICIALIZAR.vi"/>
