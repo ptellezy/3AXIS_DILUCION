@@ -50,17 +50,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="ALONE_3AXIS_AMI_DESIM.vi" Type="VI" URL="../ALONE_3AXIS_AMI_DESIM.vi"/>
+		<Item Name="ALONE_3AXIS_V_AMI_DESIM.vi" Type="VI" URL="../ALONE_3AXIS_V_AMI_DESIM.vi"/>
 		<Item Name="ALONE_BLUEFORS.vi" Type="VI" URL="../ALONE_BLUEFORS.vi"/>
 		<Item Name="ALONE_IMAN.vi" Type="VI" URL="../ALONE_IMAN.vi"/>
 		<Item Name="ALONE_LKSHR_335.vi" Type="VI" URL="../ALONE_LKSHR_335.vi"/>
 		<Item Name="ALONE_RAMPAVOLT.vi" Type="VI" URL="../ALONE_RAMPAVOLT.vi"/>
-		<Item Name="cRIO_ZNB_AMI_GLOBALES.vi" Type="VI" URL="../cRIO_ZNB_AMI_GLOBALES.vi"/>
 		<Item Name="Lake Shore 335 Configure Curve.vi" Type="VI" URL="../LAKESHORE/Lake Shore 335 Configure Curve.vi"/>
 		<Item Name="MAIN_cRIO_ZNB_AMI.vi" Type="VI" URL="../MAIN_cRIO_ZNB_AMI.vi"/>
 		<Item Name="RohdeSchwarz ZNB ReadSpectrum.vi" Type="VI" URL="../RohdeSchwarz ZNB ReadSpectrum.vi"/>
 		<Item Name="TEST_cRIO.vi" Type="VI" URL="../TEST_cRIO.vi"/>
-		<Item Name="TestColores.vi" Type="VI" URL="../TestColores.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent ENA Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent ENA Series/Agilent ENA Series.lvlib"/>
@@ -148,7 +146,6 @@
 			<Item Name="430_TCP_Open.vi" Type="VI" URL="../AMI MAGNET/AMI 430 Power Supply Programer Drivers/AMI/Common VIs/430_TCP_Open.vi"/>
 			<Item Name="430_TCP_Query.vi" Type="VI" URL="../AMI MAGNET/AMI 430 Power Supply Programer Drivers/AMI/Common VIs/430_TCP_Query.vi"/>
 			<Item Name="ALONE_3AXIS_AMI.ctl" Type="VI" URL="../ALONE_3AXIS_AMI.ctl"/>
-			<Item Name="ALONE_3AXIS_V_AMI_DESIM.vi" Type="VI" URL="../ALONE_3AXIS_V_AMI_DESIM.vi"/>
 			<Item Name="AMI 430_Hardware_Module.ctl" Type="VI" URL="../AMI MAGNET/AMI 430_Hardware_Module.ctl"/>
 			<Item Name="AMI 430_Hardware_Module_X AXIS.vi" Type="VI" URL="../AMI MAGNET/AMI 430_Hardware_Module_X AXIS.vi"/>
 			<Item Name="AMI 430_Hardware_Module_Y AXIS.vi" Type="VI" URL="../AMI MAGNET/AMI 430_Hardware_Module_Y AXIS.vi"/>
@@ -164,25 +161,35 @@
 			<Item Name="AMI_Extrae_SetField Y.vi" Type="VI" URL="../SECUENCIAS/AMI_Extrae_SetField Y.vi"/>
 			<Item Name="AMI_Extrae_SetField Z.vi" Type="VI" URL="../SECUENCIAS/AMI_Extrae_SetField Z.vi"/>
 			<Item Name="AMI_Extrae_ZNB_Measure.vi" Type="VI" URL="../SECUENCIAS/AMI_Extrae_ZNB_Measure.vi"/>
+			<Item Name="AMI_Measure_cDAQ.vi" Type="VI" URL="../SECUENCIAS/AMI_Measure_cDAQ.vi"/>
+			<Item Name="AMI_Measure_ZNB.vi" Type="VI" URL="../SECUENCIAS/AMI_Measure_ZNB.vi"/>
 			<Item Name="AMI_Parse_Desimanar_X.vi" Type="VI" URL="../SECUENCIAS/AMI_Parse_Desimanar_X.vi"/>
 			<Item Name="AMI_Parse_Desimanar_Y.vi" Type="VI" URL="../SECUENCIAS/AMI_Parse_Desimanar_Y.vi"/>
 			<Item Name="AMI_Parse_Desimanar_Z.vi" Type="VI" URL="../SECUENCIAS/AMI_Parse_Desimanar_Z.vi"/>
 			<Item Name="AMI_ScanCampo X axis.vi" Type="VI" URL="../SECUENCIAS/AMI_ScanCampo X axis.vi"/>
+			<Item Name="AMI_ScanCampo XYZ axis.vi" Type="VI" URL="../SECUENCIAS/AMI_ScanCampo XYZ axis.vi"/>
 			<Item Name="AMI_ScanCampo Y axis.vi" Type="VI" URL="../SECUENCIAS/AMI_ScanCampo Y axis.vi"/>
 			<Item Name="AMI_ScanCampo Z axis.vi" Type="VI" URL="../SECUENCIAS/AMI_ScanCampo Z axis.vi"/>
+			<Item Name="AMI_ScanTemperature.vi" Type="VI" URL="../SECUENCIAS/AMI_ScanTemperature.vi"/>
+			<Item Name="AMI_ScanVoltage.vi" Type="VI" URL="../SECUENCIAS/AMI_ScanVoltage.vi"/>
 			<Item Name="AMI_SetCampo X axis.vi" Type="VI" URL="../SECUENCIAS/AMI_SetCampo X axis.vi"/>
+			<Item Name="AMI_SetCampo XYZ axis.vi" Type="VI" URL="../SECUENCIAS/AMI_SetCampo XYZ axis.vi"/>
 			<Item Name="AMI_SetCampo Y axis.vi" Type="VI" URL="../SECUENCIAS/AMI_SetCampo Y axis.vi"/>
 			<Item Name="AMI_SetCampo Z axis.vi" Type="VI" URL="../SECUENCIAS/AMI_SetCampo Z axis.vi"/>
+			<Item Name="AMI_SetTemperature.vi" Type="VI" URL="../SECUENCIAS/AMI_SetTemperature.vi"/>
+			<Item Name="AMI_SetVoltage.vi" Type="VI" URL="../SECUENCIAS/AMI_SetVoltage.vi"/>
 			<Item Name="AMI_String_Field X.vi" Type="VI" URL="../SECUENCIAS/AMI_String_Field X.vi"/>
 			<Item Name="AMI_String_Field Y.vi" Type="VI" URL="../SECUENCIAS/AMI_String_Field Y.vi"/>
 			<Item Name="AMI_String_Field Z.vi" Type="VI" URL="../SECUENCIAS/AMI_String_Field Z.vi"/>
+			<Item Name="BLUEFORS_Temperaturas.ctl" Type="VI" URL="../BLUEFORS/BLUEFORS_Temperaturas.ctl"/>
 			<Item Name="CALCULA_Indices.vi" Type="VI" URL="../SECUENCIAS/CALCULA_Indices.vi"/>
 			<Item Name="commsControl.ctl" Type="VI" URL="../AMI MAGNET/commsControl.ctl"/>
 			<Item Name="cRIO_ZNB_AMI_FINALIZAR.vi" Type="VI" URL="../cRIO_ZNB_AMI_FINALIZAR.vi"/>
+			<Item Name="cRIO_ZNB_AMI_GLOBALES.vi" Type="VI" URL="../cRIO_ZNB_AMI_GLOBALES.vi"/>
 			<Item Name="cRIO_ZNB_AMI_INICIALIZAR.vi" Type="VI" URL="../cRIO_ZNB_AMI_INICIALIZAR.vi"/>
 			<Item Name="cRIO_ZNB_AMI_STOP.vi" Type="VI" URL="../cRIO_ZNB_AMI_STOP.vi"/>
 			<Item Name="DataType.ctl" Type="VI" URL="../DISPLAY/DataType.ctl"/>
-			<Item Name="datosGraficaBlueforsNumeric.ctl" Type="VI" URL="../WEB Readings/datosGraficaBlueforsNumeric.ctl"/>
+			<Item Name="datos_BLUEFORS.ctl" Type="VI" URL="../BLUEFORS/datos_BLUEFORS.ctl"/>
 			<Item Name="Demag_fields.vi" Type="VI" URL="../AMI MAGNET/Demag_fields.vi"/>
 			<Item Name="Display_Command Control.ctl" Type="VI" URL="../DISPLAY/Display_Command Control.ctl"/>
 			<Item Name="Display_Module.vi" Type="VI" URL="../DISPLAY/Display_Module.vi"/>
@@ -195,6 +202,7 @@
 			<Item Name="File_Module Control.ctl" Type="VI" URL="../FILE/File_Module Control.ctl"/>
 			<Item Name="Get Magnet Field.vi" Type="VI" URL="../AMI MAGNET/AMI 430 Power Supply Programer Drivers/AMI/Model 4x0/Get Magnet Field.vi"/>
 			<Item Name="Get Status.vi" Type="VI" URL="../AMI MAGNET/AMI 430 Power Supply Programer Drivers/AMI/Model 4x0/Get Status.vi"/>
+			<Item Name="Get_Values_From_JSON.vi" Type="VI" URL="../BLUEFORS/Get_Values_From_JSON.vi"/>
 			<Item Name="GPIB 332 Command.vi" Type="VI" URL="../AMI MAGNET/AMI 430 Power Supply Programer Drivers/AMI/Common VIs/GPIB 332 Command.vi"/>
 			<Item Name="GPIB 332 Query.vi" Type="VI" URL="../AMI MAGNET/AMI 430 Power Supply Programer Drivers/AMI/Common VIs/GPIB 332 Query.vi"/>
 			<Item Name="Interpola-V-B.vi" Type="VI" URL="../IMAN/Interpola-V-B.vi"/>
@@ -208,12 +216,9 @@
 			<Item Name="MEDIDA_cRIO_ZNB_AMI.ctl" Type="VI" URL="../MEDIDA_cRIO_ZNB_AMI.ctl"/>
 			<Item Name="MEDIDA_cRIO_ZNB_AMI.vi" Type="VI" URL="../MEDIDA_cRIO_ZNB_AMI.vi"/>
 			<Item Name="MEDIDA_cRIO_ZNB_AMI_DATOS.ctl" Type="VI" URL="../MEDIDA_cRIO_ZNB_AMI_DATOS.ctl"/>
-			<Item Name="PPMS_FreqMeas.vi" Type="VI" URL="../SECUENCIAS/PPMS_FreqMeas.vi"/>
 			<Item Name="PPMS_Repeticiones.vi" Type="VI" URL="../SECUENCIAS/PPMS_Repeticiones.vi"/>
-			<Item Name="PPMS_ScanVoltage.vi" Type="VI" URL="../SECUENCIAS/PPMS_ScanVoltage.vi"/>
-			<Item Name="PPMS_SetVoltage.vi" Type="VI" URL="../SECUENCIAS/PPMS_SetVoltage.vi"/>
 			<Item Name="Prompt INPUT.vi" Type="VI" URL="../PROMPTS/Prompt INPUT.vi"/>
-			<Item Name="readBlueforsHtml.vi" Type="VI" URL="../WEB Readings/readBlueforsHtml.vi"/>
+			<Item Name="read_BLUEFORS_Temperatures_JSON.vi" Type="VI" URL="../BLUEFORS/read_BLUEFORS_Temperatures_JSON.vi"/>
 			<Item Name="REPETICIONES_CICLOS.vi" Type="VI" URL="../SECUENCIAS/REPETICIONES_CICLOS.vi"/>
 			<Item Name="RohdeSchwarz ZNB MeasConfig.ctl" Type="VI" URL="../RohdeSchwarz ZNB MeasConfig.ctl"/>
 			<Item Name="Set Field Ramp Rate.vi" Type="VI" URL="../AMI MAGNET/AMI 430 Power Supply Programer Drivers/AMI/Model 4x0/Set Field Ramp Rate.vi"/>
@@ -225,7 +230,6 @@
 			<Item Name="String_Temperature.vi" Type="VI" URL="../SECUENCIAS/String_Temperature.vi"/>
 			<Item Name="String_Voltage.vi" Type="VI" URL="../SECUENCIAS/String_Voltage.vi"/>
 			<Item Name="String_Wait.vi" Type="VI" URL="../SECUENCIAS/String_Wait.vi"/>
-			<Item Name="Temperaturas Bluefors.ctl" Type="VI" URL="../WEB Readings/Temperaturas Bluefors.ctl"/>
 			<Item Name="Timing_Module Control.ctl" Type="VI" URL="../TIMING/Timing_Module Control.ctl"/>
 			<Item Name="UserEventData.ctl" Type="VI" URL="../DISPLAY/UserEventData.ctl"/>
 			<Item Name="UserEventReference.ctl" Type="VI" URL="../DISPLAY/UserEventReference.ctl"/>
